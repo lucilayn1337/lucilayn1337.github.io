@@ -54,6 +54,18 @@ function discord() {
 checkConsole();
 }
 
+function nickname() {
+	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[layn.ml]</font> nickname link was clicked by user</font><br>";
+	i += 1;
+checkConsole();
+}
+
+function vk() {
+	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[layn.ml]</font> vk link was clicked by user</font><br>";
+	i += 1;
+checkConsole();
+}
+
 function selly() {
 	document.getElementById('smefpw2').innerHTML += "<font face=\"verdana\"><font color=\"#95b806\">[layn.ml]</font> selly link was clicked by user</font><br>";
 	i += 1;
